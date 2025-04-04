@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>설문지</title>
+    </head>
+    <body>
+        <h1>설문지</h1>
+        <p>
+          소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.
+        </p>
+        <hr>
+        <form>
+            학년: 
+            <label>
+                <input type="radio" name="grade" value="1">
+                1학년 
+            </label>
+            <label>
+                <input type="radio" name="grade" value="2">
+                2학년 
+            </label>
+            <label>
+                <input type="radio" name="grade" value="3">
+                3학년 
+            </label>
+            <label>
+                <input type="radio" name="grade" value="4">
+                4학년 
+            </label>
+        </form>
+        <form>
+            성별: 
+            <label>
+                <input type="radio" name="person" value="1">
+                남성 
+            </label>
+            <label>
+                <input type="radio" name="person" value="2">
+                여성
+            </label>
+        </form>
+        <form>
+            관심분야: <input type="text" list="interest"><br>
+            <datalist id="interest">
+                <option value="인공지능">
+                    <option value="자율주행 자동차">
+                        <option value="컴퓨터">
+            </datalist>
+        </form>
+        <form>
+            진로: 
+            개발<input type="checkbox" value="1">
+            기획<input type="checkbox" value="2">
+            영업<input type="checkbox" value="3">
+            창업<input type="checkbox" value="4">
+        </form>
+        <form>
+            남기고 싶은 말<br>
+            <textarea cols="40"
+            rows="10"
+            name="comment"
+            wrap="OFF">
+            글을 남겨 주세요
+            </textarea>
+        </form>
+    </body>
+</html>
+</body>
+</html>
