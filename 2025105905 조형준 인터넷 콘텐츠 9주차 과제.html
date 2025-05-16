@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About me</title>
+        <style>
+            body{background-color: aliceblue;}
+            h1{
+                text-align: center;
+                color: brown;
+            }
+            .p1{
+                text-indent: 1em;
+                font-size: 1em;
+                font-family: 휴먼편지체;
+            }
+            h3{
+                text-shadow: 3px 3px 5px skyblue;
+            }
+            div{
+                border: 1px dotted blue;
+            }
+            .p2{
+                background: orange;
+                width: 300px;
+                padding: 20px;
+            }
+            #round1{border-radius: 10px;}
+            table{
+                border-collapse: collapse;
+            }
+            td, th{
+                text-align: center;
+                padding: 5px;
+                height: 15px;
+                width: 100px;
+            }
+            thead, tfoot{
+                background: darkgray;
+                color: white;
+            }
+            tbody tr:nth-child(even){
+                background: azure;
+            }
+            tbody tr:hover{
+                background: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>조형준</h1>
+        <hr>
+        <p class="p1">
+            안녕하세요? 제 이름은 조형준입니다. 올해 대학교를 입학한 20살 새내기입니다.<br>
+            다양한 관심분야와 취미 활동을 하고 있습니다. 제 강의 시간표를 소개해드리겠습니다.<br>즐거운 하루 되세요~<br>
+            <audio src="media2/intro.mp3.m4a" controls loop></audio>
+        </p>
+    </header>
+        <nav>
+            <h3>목차</h3>
+            <div>
+            <ul>
+                <li><a href ="#관심" style="text-decoration: none;">관심분야</a>
+                    <li><a href="#취미" style="text-decoration: none;">취미활동</a>
+                        <li><a href="#강의" style="text-decoration: none;">강의시간표</a>
+            </ul>
+        </nav></div>
+        <section>
+            <article>
+            <h3 id="관심">관심 분야</h3>
+        <hr>
+           <ul>
+            <li>인공지능(AI)
+                <ul>
+                    <li>머신러닝(Machine Learning)
+                        <li>생성형 인공지능(Generative AI)
+                            <li>초인공지능(ASI)
+                </ul>
+                <li>자율주행자동차
+                    <ul>
+                        <li>테슬라(Tesla)
+                            <li>트롤리 딜레마(Trolley dilemma)
+                                <li>매체 속 자율주행자동차(In the media)
+                    </ul>
+                    <li>컴퓨터
+                        <ul>
+                            <li>하드웨어(hardware)
+                                <li>소프트웨어(software)
+                                    <li>에이다 러브레이스(Ada Lovelace)
+                        </ul>
+                </ul>
+            </article>
+            <article>
+                <h3 id="취미">취미 활동</h3>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr><th><img src="media2/music.jpg" width="100" height="100" alt="music"></th><th><img src="media2/drawing.jpg" width="100" height="100" alt="drawing"></th><th><img src="media2/game.jpg" width="100" height="100" alt="game"></th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>음악 듣기</td><td>그림 그리기</td><td>게임</td></tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h3 id="강의">강의 시간표(2025년 1학기)</h3>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr><th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>09</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>10</td><td></td><td rowspan='3'>인터넷콘텐츠<br>(103/공학615)</td><td></td><td rowspan='3'>프로그래밍언어실습1<br>(103/공학603)</td><td></td></tr>
+                        <tr><td>11</td><td></td><td></td><td></td></tr>
+                        <tr><td>12</td><td></td><td></td><td></td></tr>
+                        <tr><td>01</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>02</td><td></td><td></td><td></td><td rowspan='3'>컴퓨터과학개론<br>(103/공학507)</td><td></td></tr>
+                        <tr><td>03</td><td></td><td rowspan='2'>SW개발문제해결능력<br>(103/공학609)</td><td></td><td></td></tr>
+                        <tr><td>04</td><td></td><td rowspan='2'>컴퓨팅사고력<br>(103/공학608)</td><td></td></tr>
+                        <tr><td>05</td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>06</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+                <hr>
+            </article>
+            </section>
+            <footer>
+                <p class="p2"p id="round1">
+                <a href="survey.html" target="_blank">설문조사</a>
+                <br>2025년 3월 28일 작성</p>
+            </footer>
+    </body>
+</html>
